@@ -64,13 +64,12 @@
 
 - **on premise**: To be deployed on local server as internal client tool.
 
-
 ### Status
-- **Current Status:** *INTRALOG CRM leads Manager is currently under development, waiting for upper management deffinitions for the last functionalities.*
+- **Current Status:** *INTRALOG CRM leads Manager is currently under development, waiting for upper management definitions for the last functionalities.*
 - **Planned Features:**
   - *Campaign Analysis:* *This feature will associate mkt campaign source with each lead to study each campaign config and combinations efficiency, we are currently colectung the historic campaigns relevant data to plan the analysis logic.*
   - *Commercial Performance:* *Management will be able to track the team's perfomance as a whole and for each member with the event log functionality, that will have real time analysis for improvement areas leverage and identify best skills and practices to replicate in the rest of the team.*
-  - *Real time alerts:* *This feature will give personalized alerts via mail and whatsapp about relevant potential leads, the API and trasaccional mail provider are already configured. what is left is the commercial team feedback on what events should trigger the mails.*
+  - *Real time alerts:* *This feature will give personalized alerts via mail and whatsapp about relevant potential leads, the API and transactional mail provider are already configured. what is left is the commercial team feedback on what events should trigger the mails.*
 
 ### Roadmap
 
@@ -83,6 +82,62 @@
 - **Q1 2025:** defined algoritms and data loading for campaign analysis.
 - **Q2 2025:** Testing and deployment.
 
+## Installation
+
+Follow these steps to set up the project on your local machine.
+
+### Prerequisites
+
+Ensure you have the following installed on your machine:
+
+- **Python 3.8+**
+- **Django 4.0+**
+- **SQLite** (or another database if you're using one)
+- **Git**
+
+### Clone the Repository
+
+First, clone the repository to your local machine using Git:
+
+```bash
+git clone https://github.com/manfeltor/Leads_manager_sample
+cd Leads_manager_sample
+```
+
+### Setup virtual environment (recommended)
+
+```bash
+python -m venv env
+source env/bin/activate
+```
+
+### Install requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### Apply migrations
+
+To setup your database
+
+```bash
+python manage.py migrate
+```
+### Sample Database for Execution
+
+- make sure the included database is copied root directory of the project
+
+**Note:** The sample database contains a subset of anonymized data that simulates the real environment. The original database and API credentials are proprietary. If you require a demonstration or further access, please contact me at manfeltor@live.com.
+
+### Run development server
+
+Start the Django development server as insecure to serve static files:
+
+```bash
+python manage.py runserver --insecure
+```
+
 ### Contributors
 - **Lead Developer:** *Felipe Torres*
 
@@ -91,4 +146,4 @@
 - **Live Demo:** [Live Demo](#) *Link to a live demo if available.*
 
 ### License
-*GPL-3.0 license.*
+*GPL-3.0 license, [read full document](LICENSE).*
