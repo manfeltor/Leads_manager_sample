@@ -1,149 +1,147 @@
-## Project Overview
 
-### Project Name
+## Descripción del Proyecto
+
+### Nombre del Proyecto
 *INTRALOG leads manager*
 
-### Description
-*This Leads Manager is a custom tailored CRM tool under development designed to streamline the management of leads for a sales team. It includes features like lead assignment, status tracking, management metrics and campaign analysis, all integrated into a user-friendly web interface.*
+### Descripción
+*Este Leads Manager es una herramienta CRM personalizada en desarrollo diseñada para optimizar la gestión de leads para un equipo de ventas. Incluye funciones como la asignación de leads, seguimiento de estado, métricas de gestión y análisis de campañas, todo integrado en una interfaz web fácil de usar.*
 
-### Key Features
+### Características Principales
 
-- **Lead Management:**
-  - Pull from WP custom plugins, view, and manage leads with detailed information making a first classification.
-  - Assign leads to specific users and track progress.
+- **Gestión de Leads:**
+  - Extrae datos desde plugins personalizados de WP, visualiza y gestiona leads con información detallada realizando una primera clasificación.
+  - Asigna leads a usuarios específicos y realiza un seguimiento del progreso.
  
-- **Custom User Generation:**
-  - Create and edit users with specific roles and relevant fields.
-  - Manage users (for management), and edit your own for better personalization and security.
+- **Generación de Usuarios Personalizados:**
+  - Crea y edita usuarios con roles específicos y campos relevantes.
+  - Gestiona usuarios (para la administración), y edita tu propio perfil para una mejor personalización y seguridad.
   
-- **User Role Management:**
-  - Define user roles such as Admin, Manager, and Employee.
-  - Manage user permissions based on roles.
+- **Gestión de Roles de Usuario:**
+  - Define roles de usuario como Admin, Gerente y Empleado.
+  - Gestiona permisos de usuario según los roles.
 
-- **Custom CRM Forms:**
-  - Dynamic form generation for different lead types.
-  - Store and manage form submissions with detailed logs for behavior analysis.
+- **Formularios de CRM Personalizados:**
+  - Generación dinámica de formularios para diferentes tipos de leads.
+  - Almacena y gestiona las presentaciones de formularios con registros detallados para el análisis de comportamiento.
  
-- **User Authentication:**
-  - Secure login and registration system.
-  - Profile management including password change and role assignment.
+- **Autenticación de Usuarios:**
+  - Sistema de registro y login seguro.
+  - Gestión de perfiles que incluye el cambio de contraseña y asignación de roles.
 
-- **Analytics Dashboard:**
-  - View key metrics and performance indicators (under development).
-  - Filter data by date, status, and assigned user.
+- **Panel de Análisis:**
+  - Visualiza métricas clave e indicadores de rendimiento (en desarrollo).
+  - Filtra datos por fecha, estado y usuario asignado.
 
-- **Campaign Analysis (under development):**
-  - Associate leads with marketing campaigns.
-  - Track the effectiveness of each campaign with upper management analysis dashboards.
+- **Análisis de Campañas (en desarrollo):**
+  - Asocia leads con campañas de marketing.
+  - Realiza un seguimiento de la efectividad de cada campaña con paneles de análisis para la alta gerencia.
  
-  For more planned features see the status section.
+  Para ver más características planificadas, consulta la sección de estado.
 
-### Tech Stack
+### Tecnología Utilizada
 
-- **Python**: The primary programming language used for backend development.
-- **Django**: The web framework used for building the backend and handling the MVC structure.
-- **SQLite**: The database system used for development and testing (will be replaced with PostgreSQL MSQLS in production, still under evaluation).
-- **HTML/CSS**: For building the frontend structure and styling.
-  - **W3.CSS**: A CSS framework used for styling and responsive design.
-  - **FontAwesome**: Icon library used for enhancing the UI.
-- **JavaScript**: Used for adding interactivity to the frontend.
-  - **Vanilla JS**: For basic DOM manipulation and event handling.
-- **Git**: Version control system used to manage code and collaboration.
-- **GitHub**: Hosting service for version control using Git, where the project's repository is stored.
-- **Django REST Framework**: For building APIs (if applicable).
-- **Celery**: Task queue used for handling asynchronous tasks (under development).
-- **Docker**: Containerization tool used to create and manage containers (to be containerized once ready for deployment).
-- **Gunicorn**: WSGI HTTP server for running Django applications in production (to be implemented once containerization ready).
+- **Python**: El lenguaje de programación principal utilizado para el desarrollo backend.
+- **Django**: El framework web utilizado para construir el backend y manejar la estructura MVC.
+- **SQLite**: El sistema de base de datos utilizado para el desarrollo y pruebas (se reemplazará por PostgreSQL o MSQLS en producción, aún en evaluación).
+- **HTML/CSS**: Para construir la estructura y el estilo del frontend.
+  - **W3.CSS**: Un framework CSS utilizado para el diseño y la capacidad de respuesta.
+  - **FontAwesome**: Biblioteca de iconos utilizada para mejorar la interfaz de usuario.
+- **JavaScript**: Utilizado para agregar interactividad al frontend.
+  - **Vanilla JS**: Para manipulación básica del DOM y manejo de eventos.
+- **Git**: Sistema de control de versiones utilizado para gestionar el código y la colaboración.
+- **GitHub**: Servicio de alojamiento para el control de versiones utilizando Git, donde se almacena el repositorio del proyecto.
+- **Django REST Framework**: Para la construcción de APIs (si es aplicable).
+- **Celery**: Cola de tareas utilizada para manejar tareas asincrónicas (en desarrollo).
+- **Docker**: Herramienta de contenedorización utilizada para crear y gestionar contenedores (se implementará una vez que esté listo para la producción).
+- **Gunicorn**: Servidor HTTP WSGI para ejecutar aplicaciones Django en producción (se implementará una vez que la contenedorización esté lista).
 
-### Development Tools
+### Herramientas de Desarrollo
 
-- **VS Code**: Preferred code editor for development.
-- **SQLite Browser**: For managing the SQLite database during development.
+- **VS Code**: Editor de código preferido para el desarrollo.
+- **SQLite Browser**: Para gestionar la base de datos SQLite durante el desarrollo.
 
-### Deployment
+### Implementación
 
-- **on premise**: To be deployed on local server as internal client tool.
+- **en sitio**: Se implementará en un servidor local como herramienta interna del cliente.
 
-### Status
-- **Current Status:** *INTRALOG CRM leads Manager is currently under development, waiting for upper management definitions for the last functionalities.*
-- **Planned Features:**
-  - *Campaign Analysis:* *This feature will associate mkt campaign source with each lead to study each campaign config and combinations efficiency, we are currently colectung the historic campaigns relevant data to plan the analysis logic.*
-  - *Commercial Performance:* *Management will be able to track the team's perfomance as a whole and for each member with the event log functionality, that will have real time analysis for improvement areas leverage and identify best skills and practices to replicate in the rest of the team.*
-  - *Real time alerts:* *This feature will give personalized alerts via mail and whatsapp about relevant potential leads, the API and transactional mail provider are already configured. what is left is the commercial team feedback on what events should trigger the mails.*
+### Estado
+- **Estado Actual:** *INTRALOG CRM leads Manager está actualmente en desarrollo, a la espera de definiciones de la alta gerencia para las últimas funcionalidades.*
+- **Características Planificadas:**
+  - *Análisis de Campañas:* *Esta característica asociará la fuente de campañas de marketing con cada lead para estudiar la eficiencia de la configuración y combinaciones de cada campaña. Actualmente estamos recopilando los datos históricos relevantes de las campañas para planificar la lógica del análisis.*
+  - *Rendimiento Comercial:* *La gerencia podrá realizar un seguimiento del rendimiento del equipo en su conjunto y de cada miembro con la funcionalidad de registro de eventos, que proporcionará análisis en tiempo real para aprovechar las áreas de mejora e identificar las mejores habilidades y prácticas para replicar en el resto del equipo.*
+  - *Alertas en tiempo real:* *Esta función enviará alertas personalizadas por correo y WhatsApp sobre leads potenciales relevantes. La API y el proveedor de correo transaccional ya están configurados. Lo que falta es la retroalimentación del equipo comercial sobre qué eventos deberían activar los correos.*
 
-### Roadmap
+### Hoja de Ruta
 
-### In Progress
-- Currently finishing the details of the landing dashboard of overall leads status.
+### En Progreso
+- Actualmente finalizando los detalles del panel de control de estado general de leads.
 
-### Next steps
-- **Q3 2024:** Landing dasboard finished with a general overview of the general leads status.
-- **Q4 2024:** Configured data definitions and configuration for management metrics, automated mail alerts.
-- **Q1 2025:** defined algoritms and data loading for campaign analysis.
-- **Q2 2025:** Testing and deployment.
+### Próximos Pasos
+- **Q3 2024:** Panel de control terminado con una visión general del estado general de los leads.
+- **Q4 2024:** Definiciones de datos configuradas y configuración para métricas de gestión, alertas automatizadas por correo.
+- **Q1 2025:** Algoritmos definidos y carga de datos para el análisis de campañas.
+- **Q2 2025:** Pruebas y despliegue.
 
-### Project Links
-- **Repository:** [Leads manager](https://github.com/manfeltor/Leads_manager_sample)
-- **Live Demo:** [Live Demo](#) *Link to a live demo if available.*
+### Instalación
 
-## Installation
+Sigue estos pasos para configurar el proyecto en tu máquina local.
 
-Follow these steps to set up the project on your local machine.
+### Requisitos Previos
 
-### Prerequisites
-
-Ensure you have the following installed on your machine:
+Asegúrate de tener lo siguiente instalado en tu máquina:
 
 - **Python 3.8+**
 - **Django 4.0+**
-- **SQLite** (or another database if you're using one)
+- **SQLite** (u otra base de datos si estás utilizando una)
 - **Git**
 
-### Clone the Repository
+### Clonar el Repositorio
 
-First, clone the repository to your local machine using Git:
+Primero, clona el repositorio en tu máquina local usando Git:
 
 ```bash
 git clone https://github.com/manfeltor/Leads_manager_sample
 cd Leads_manager_sample
 ```
 
-### Setup virtual environment (recommended)
+### Configurar el Entorno Virtual (recomendado)
 
 ```bash
 python -m venv env
 source env/bin/activate
 ```
 
-### Install requirements
+### Instalar Dependencias
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Apply migrations
+### Aplicar Migraciones
 
-To setup your database
+Para configurar tu base de datos
 
 ```bash
 python manage.py migrate
 ```
-### Sample Database for Execution
 
-- make sure the included database is copied root directory of the project
+### Base de Datos de Ejemplo para Ejecución
 
-**Note:** The sample database contains a subset of anonymized data that simulates the real environment. The original database and API credentials are proprietary. If you require a demonstration or further access, please contact me at manfeltor@live.com.
+- Asegúrate de que la base de datos incluida esté copiada en el directorio raíz del proyecto.
 
-### Run development server
+**Nota:** La base de datos de ejemplo contiene un subconjunto de datos anonimizados que simulan el entorno real. La base de datos original y las credenciales de la API son propietarias. Si necesitas una demostración o acceso adicional, por favor, contacta conmigo en manfeltor@live.com.
 
-Start the Django development server as insecure to serve static files:
+### Ejecutar el Servidor de Desarrollo
+
+Inicia el servidor de desarrollo de Django en modo inseguro para servir archivos estáticos:
 
 ```bash
 python manage.py runserver --insecure
 ```
 
-### Contributors
-- **Lead Developer:** *Felipe Torres*
+### Contribuidores
+- **Desarrollador Principal:** *Felipe Torres*
 
-### License
-*GPL-3.0 license, [read full document](LICENSE).*
+### Licencia
+*Licencia GPL-3.0, [lee el documento completo](LICENSE).*
