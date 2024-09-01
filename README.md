@@ -82,6 +82,10 @@
 - **Q1 2025:** defined algoritms and data loading for campaign analysis.
 - **Q2 2025:** Testing and deployment.
 
+### Project Links
+- **Repository:** [Leads manager](https://github.com/manfeltor/Leads_manager_sample)
+- **Live Demo:** [Live Demo](#) *Link to a live demo if available.*
+
 ## Installation
 
 Follow these steps to set up the project on your local machine.
@@ -140,10 +144,6 @@ python manage.py runserver --insecure
 
 ### Contributors
 - **Lead Developer:** *Felipe Torres*
-
-### Project Links
-- **Repository:** [Leads manager](https://github.com/manfeltor/Leads_manager_sample)
-- **Live Demo:** [Live Demo](#) *Link to a live demo if available.*
 
 ### License
 *GPL-3.0 license, [read full document](LICENSE).*
