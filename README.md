@@ -68,16 +68,27 @@
 ### Status
 - **Current Status:** *INTRALOG CRM leads Manager is currently under development, waiting for upper management deffinitions for the last functionalities.*
 - **Planned Features:**
-  - *Campaign Analysis:* *This feature will associate mkt campaign source with each lead, to study each campaign config and combinations efficiency.*
+  - *Campaign Analysis:* *This feature will associate mkt campaign source with each lead to study each campaign config and combinations efficiency, we are currently colectung the historic campaigns relevant data to plan the analysis logic.*
   - *Commercial Performance:* *Management will be able to track the team's perfomance as a whole and for each member with the event log functionality, that will have real time analysis for improvement areas leverage and identify best skills and practices to replicate in the rest of the team.*
-  - *Real time alerts:* *This feature will give personalized alerts via mail and whatsapp about relevant potential leads.*
+  - *Real time alerts:* *This feature will give personalized alerts via mail and whatsapp about relevant potential leads, the API and trasaccional mail provider are already configured. what is left is the commercial team feedback on what events should trigger the mails.*
+
+### Roadmap
+
+### In Progress
+- Currently finishing the details of the landing dashboard of overall leads status.
+
+### Next steps
+- **Q3 2024:** Landing dasboard finished with a general overview of the general leads status.
+- **Q4 2024:** Configured data definitions and configuration for management metrics, automated mail alerts.
+- **Q1 2025:** defined algoritms and data loading for campaign analysis.
+- **Q2 2025:** Testing and deployment.
 
 ### Contributors
 - **Lead Developer:** *Felipe Torres*
 
 ### Project Links
-- **Repository:** [Leads manager](https://github.com/manfeltor/leadsmanager)
+- **Repository:** [Leads manager](https://github.com/manfeltor/Leads_manager_sample)
 - **Live Demo:** [Live Demo](#) *Link to a live demo if available.*
 
 ### License
-*State the license under which the project is released (e.g., MIT License).*
+*GPL-3.0 license.*
