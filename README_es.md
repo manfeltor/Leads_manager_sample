@@ -83,6 +83,11 @@
 - **Q1 2025:** Algoritmos definidos y carga de datos para el análisis de campañas.
 - **Q2 2025:** Pruebas y despliegue.
 
+### Enlaces del Proyecto
+#### project-links-es
+- **Repositorio:** [Leads_manager_sample](https://github.com/manfeltor/Leads_manager_sample)
+- **Demo en Vivo:** [Demo en Vivo](#) *Enlace a una demostración en vivo si está disponible.*
+
 ### Instalación
 
 Sigue estos pasos para configurar el proyecto en tu máquina local.
