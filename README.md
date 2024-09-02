@@ -84,7 +84,8 @@
 
 ### Project Links
 - **Repository:** [Leads manager](https://github.com/manfeltor/Leads_manager_sample)
-- **Live Demo:** [Live Demo](#) *Link to a live demo if available.*
+- **Video Demo:** [Live Demo in spanish](https://youtu.be/MRJY57_qR3A?feature=shared).
+- **Video Demo:** Video demo in english (coming soon).
 
 ## Installation
 
